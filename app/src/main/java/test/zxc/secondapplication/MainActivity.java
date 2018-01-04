@@ -2,6 +2,8 @@ package test.zxc.secondapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,7 +13,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     
-    void class newMothed(){
+    void  newMothed(){
         
+    }
+
+    void  buttonAction(View a){
+//        prinln("点击了按钮");
+        System.out.print("dianji");
+        Toast.makeText(this,"123",Toast.LENGTH_SHORT).show();
     }
 }
